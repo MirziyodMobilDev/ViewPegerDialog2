@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DialogFragment">
+    <androidx.cardview.widget.CardView
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:padding="15sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="20sp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Butcamp news qo'shish"/>
+            <EditText
+                android:id="@+id/sarlavha"
+                android:layout_marginTop="10sp"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sarlavha"/>
+
+            <EditText
+                android:layout_marginTop="10sp"
+                android:id="@+id/desciription"
+                android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Text"/>
+
+          <LinearLayout
+              android:layout_marginTop="15sp"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <EditText
+                  android:backgroundTint="@color/white"
+                  android:layout_width="225sp"
+                  android:layout_height="wrap_content"
+                  android:hint="Type"/>
+              <ImageView
+                  android:layout_marginLeft="10sp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="30dp"
+                  android:src="@drawable/ic_baseline_south_24"
+                  android:layout_gravity="center_vertical"/>
+
+          </LinearLayout>
+
+
+                <LinearLayout
+
+                   android:layout_marginTop="25sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/bekor"
+                        android:layout_marginLeft="70sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="@color/purple_500"
+                        android:text="Bekor qilish"/>
+                    <TextView
+                        android:id="@+id/saqlash"
+                        android:layout_marginLeft="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textColor="@color/purple_500"
+                        android:text="Saqlash"/>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
